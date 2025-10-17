@@ -24,7 +24,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-.guest{
+.away{
     display: flex;
     flex-direction: column;
     justify-content: center;

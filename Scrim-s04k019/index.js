@@ -1,7 +1,7 @@
 homeS = document.getElementById("home-s")
-guestS = document.getElementById("guest-s")
+awayS = document.getElementById("away-s")
 let scoreH = 0
-let scoreG = 0
+let scoreA = 0
 function oneH(){
     scoreH += 1
     homeS.textContent = scoreH
@@ -14,21 +14,21 @@ function threeH(){
     scoreH += 3
     homeS.textContent = scoreH
 }
-function oneG(){
-    scoreG += 1
-    guestS.textContent = scoreG
+function oneA(){
+    scoreA += 1
+    awayS.textContent = scoreA
 }
-function twoG(){
-    scoreG += 2
-    guestS.textContent = scoreG
+function twoA(){
+    scoreA += 2
+    awayS.textContent = scoreA
 }
-function threeG(){
-    scoreG += 3
-    guestS.textContent = scoreG
+function threeA(){
+    scoreA += 3
+    awayS.textContent = scoreA
 }
 function newS(){
     homeS.textContent = 0
-    guestS.textContent = 0
+    awayS.textContent = 0
     scoreH = 0
-    scoreG = 0
+    scoreA = 0
 }
