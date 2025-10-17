@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-color: #003049;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+   
+}
+.score-con{
+    display: flex;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.guest{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    display: flex;
+    
+}
+#btn1{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin: 10px;
+}
+#btn2{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin: 10px;
+}
+#btn3{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin: 10px;
+}
+.new-game{
+    display: flex;
+    justify-content: center;
+}
+#new{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
